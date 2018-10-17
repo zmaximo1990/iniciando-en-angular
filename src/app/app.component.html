@@ -1,0 +1,6 @@
+<button (click)="doOnChild()">Do on child</button>
+<hr>
+
+<p>El P del padre</p>
+
+<app-child [text]="forChild" (emitProperty)="react($event)"></app-child>

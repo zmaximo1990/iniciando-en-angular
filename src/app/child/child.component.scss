@@ -1,0 +1,11 @@
+:host {
+    background-color: green;
+}
+
+:host.primary {
+    color: orange;
+}
+
+p {
+    border: solid 1px red
+}
